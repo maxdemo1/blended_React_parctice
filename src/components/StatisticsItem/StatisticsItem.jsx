@@ -5,7 +5,7 @@ import style from './Statistics.module.css';
 export const StatisticsItem = ({ stat, icon }) => {
   return (
     <>
-      <IconContext.Provider value={{ color: 'blue', size: '2em' }}>
+      <IconContext.Provider value={{ color: 'black', size: '2em' }}>
         {icon}
       </IconContext.Provider>
       <span className={style.counter}>{stat.total}</span>
